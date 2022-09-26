@@ -39,6 +39,7 @@
     "@nrwl/jest": "14.7.13",
     "@nrwl/linter": "14.7.13",
     "@nrwl/nx-cloud": "latest",
+    "@nrwl/nx-workshop": "^0.0.1",
     "@nrwl/workspace": "14.7.13",
     "@types/jest": "28.1.1",
     "@types/node": "16.11.7",
