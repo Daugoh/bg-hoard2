@@ -5,10 +5,11 @@ import { AppComponent } from './app.component';
 import { NxWelcomeComponent } from './nx-welcome.component';
 import { UiSharedModule } from '@bg-hoard/store/ui-shared';
 import { RouterModule } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [AppComponent, NxWelcomeComponent],
-  imports: [BrowserModule, MatCardModule, RouterModule.forRoot([
+  imports: [BrowserModule, MatCardModule, HttpClientModule, RouterModule.forRoot([
 {
 path: 'game/:id', // <---- HERE
 loadChildren: () =>
