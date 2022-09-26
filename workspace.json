@@ -4,6 +4,7 @@
   "projects": {
     "store": "apps/store",
     "store-e2e": "apps/store-e2e",
-    "ui-shared": "libs/ui-shared"
+    "store-util-formatters": "libs/store/util-formatters",
+    "ui-shared": "libs/store/ui-shared"
   }
 }

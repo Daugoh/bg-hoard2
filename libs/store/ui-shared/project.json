@@ -6,9 +6,9 @@
   "targets": {
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/ui-shared"],
+      "outputs": ["coverage/libs/store/ui-shared"],
       "options": {
-        "jestConfig": "libs/ui-shared/jest.config.ts",
+        "jestConfig": "libs/store/ui-shared/jest.config.ts",
         "passWithNoTests": true
       }
     },
@@ -16,8 +16,8 @@
       "executor": "@nrwl/linter:eslint",
       "options": {
         "lintFilePatterns": [
-          "libs/ui-shared/**/*.ts",
-          "libs/ui-shared/**/*.html"
+          "libs/store/ui-shared/**/*.ts",
+          "libs/store/ui-shared/**/*.html"
         ]
       }
     }
