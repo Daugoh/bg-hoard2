@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "npmScope": "bg-hoardz",
+  "npmScope": "bg-hoard",
   "affected": {
     "defaultBase": "main"
   },
