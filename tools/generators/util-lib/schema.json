@@ -20,20 +20,24 @@
         "type": "list",
         "items": [
           {
-            "value": "store",
-            "label": "store"
-          },
-          {
             "value": "api",
             "label": "api"
           },
           {
+            "value": "store",
+            "label": "store"
+          },
+          {
             "value": "shared",
             "label": "shared"
+          },
+          {
+            "value": "videos",
+            "label": "videos"
           }
         ]
       }
     }
   },
-  "required": ["name","directory"]
+  "required": ["name", "directory"]
 }
