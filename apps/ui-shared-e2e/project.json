@@ -24,6 +24,6 @@
       }
     }
   },
-  "tags": [],
+  "tags": ["scope:shared", "type:e2e"],
   "implicitDependencies": ["ui-shared"]
 }
